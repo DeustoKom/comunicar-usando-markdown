@@ -33,7 +33,7 @@ GitHub es para algo más que solo código. Es una plataforma para la colaboraci�
 1. Encima de estas instrucciones, haz clic con el botón derecho del ratón en **Use this template** y abre el enlace en una nueva pestaña.<br />
    ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png)
 2. En la nueva pestaña, sigue las indicaciones para crear un nuevo repositorio.
-   - En **Owner**, elije tu cuenta personal o una organización para alojar el repositorio.
+   - En **Owner**, elije tu cuenta personal para alojar el repositorio.
    - Recomendamos crear un repositorio público - los repositorios privados [utilizarán minutos de Acciones](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
 3. Una vez creado tu nuevo repositorio, espera unos 20 segundos y actualiza la página. Sigue las instrucciones paso a paso en el README del nuevo repositorio.
