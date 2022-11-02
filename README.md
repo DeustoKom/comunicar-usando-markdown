@@ -195,15 +195,12 @@ Las acciones de GitHub se adelantaron y crearon una rama y un pull request para 
 
 1. Vuelve a tu pull request.
 1. Usa Markdown para crear una lista de tareas. Aquí tienes un ejemplo:
-
-   ```md
+  ```md
    - [ ] Activar GitHub Pages
    - [ ] Hacer un esbozo de mi portfolio
    - [ ] Pesentarme al mundo
    ```
-
   Recuerda, una lista de tareas comienza con la sintaxis `- [ ]` y luego el elemento de la lista de tareas. ¡El formato debe ser preciso!
-
 1. Utiliza la pestaña **Preview** para comprobar el formato de Markdown.
 1. Confirma los cambios en el archivo.
 1. Espera unos 20 segundos y actualiza esta página para el siguiente paso.
