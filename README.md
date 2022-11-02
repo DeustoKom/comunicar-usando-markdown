@@ -5,138 +5,138 @@
   Add your open source license, GitHub uses Creative Commons Attribution 4.0 International.
 -->
 
-# Communicate using Markdown
+# Comunicar usando Markdown
 
-_Organize ideas and collaborate using Markdown, a lightweight language for text formatting._
+_Organiza tus ideas y colabora usando Markdown, un lenguaje ligero para formatear texto._
 
 <!--
   <<< Author notes: Start of the course >>>
   Include start button, a note about Actions minutes,
   and tell the learner why they should take the course.
-  Each step should be wrapped in <details>/<summary>, with an `id` set.
+  Each Paso should be wrapped in <details>/<summary>, with an `id` set.
   The start <details> should have `open` as well.
   Do not use quotes on the <details> tag attributes.
 -->
 
 <!--step0-->
 
-GitHub is about more than code. It’s a platform for software collaboration, and Markdown is one of the most important ways developers can make their communication clear and organized in issues and pull requests. This course will walk you through creating and using headings more effectively, organizing thoughts in bulleted lists, and showing how much work you’ve completed with checklists. You can even use Markdown to add some depth to your work with the help of emoji, images, and links.
+GitHub es para algo más que solo código. Es una plataforma para la colaboración de software, y Markdown es una de las formas más importantes en que los desarrolladores pueden hacer su comunicación clara y organizada en las incidencias (o _issues_) y solicitudes de extracción (o _pull requests_). Este curso te guiará para la creación y uso de encabezados de manera más efectiva, la organización de pensamientos en listas con viñetas, y mostrar cuánto trabajo has completado con listas de control. Incluso puedes utilizar Markdown para añadir algo de profundidad a tu trabajo con la ayuda de emoji, imágenes y enlaces.
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: Use Markdown to add lists, images, and links in a comment or text file.
-- **What you'll build**: We'll update a plain text file and add Markdown formatting, and you can use this file to start your own GitHub Pages site.
-- **Prerequisites**: In this course you will work with pull requests as well as edit files. If these things aren't familiar to you, we recommend you take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) course, first!
-- **How long**: This course is five steps long and takes less than one hour to complete.
+- **Para quién es esto**: Nuevos desarrolladores, nuevos usuarios de GitHub y estudiantes.
+- **Qué aprenderás**: Usar Markdown para agregar listas, imágenes y enlaces en un comentario o archivo de texto.
+- **Qué construirás**: Actualizaremos un archivo de texto plano y añadiremos formato Markdown, y podrás utilizar este archivo para iniciar tu propio sitio de GitHub Pages.
+- **Requisitos**: En este curso trabajarás con pull requests así como con la edición de archivos. Si estas cosas no te resultan familiares, te recomendamos que primero tomes el curso [Introducción a GitHub](https://github.com/DeustoKom/introduccion-a-github).
+- **Cuánto tiempo**: Este curso consta de cinco pasos y tardarás menos de una hora en completarlo.
 
-## How to start this course
+## Cómo empezar este curso
 
-1. Above these instructions, right-click **Use this template** and open the link in a new tab.
+1. Encima de estas instrucciones, haz clic con el botón derecho del ratón en **Use this template** y abre el enlace en una nueva pestaña.<br />
    ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png)
-2. In the new tab, follow the prompts to create a new repository.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+2. En la nueva pestaña, sigue las indicaciones para crear un nuevo repositorio.
+   - En **Owner**, elije tu cuenta personal o una organización para alojar el repositorio.
+   - Recomendamos crear un repositorio público - los repositorios privados [utilizarán minutos de Acciones](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
-3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
+3. Una vez creado tu nuevo repositorio, espera unos 20 segundos y actualiza la página. Sigue las instrucciones paso a paso en el README del nuevo repositorio.
 
 <!--endstep0-->
 
 <!--
-  <<< Author notes: Step 1 >>>
+  <<< Author notes: Paso 1 >>>
   Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
+  The first Paso is always the hardest, so pick something easy!
   Link to docs.github.com for further explanations.
   Encourage users to open new tabs for steps!
 -->
 
 <details id=1>
-<summary><h2>Step 1: Add headers</h2></summary>
+<summary><h2>Paso 1: Añade encabezados</h2></summary>
 
-_Welcome to "Communicate using Markdown"! :wave:_
+_¡Bienvenida/o a "Comunicar usando Markdown"!_ :wave:
 
-**What is _Markdown_?** Markdown is a [lightweight syntax](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for communicating on GitHub. You can format text to add heading, lists, **bold**, _italics_, tables, and many other stylings. You can use Markdown most places around GitHub:
+**¿Qué es _Markdown_?** Markdown es una [sintaxis ligera](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) para comunicarse en GitHub&mdash;y muchos otros sitios. Puedes formatear el texto para añadir títulos, listas, **negritas**, _cursivas_, tablas y muchos otros estilos. Puedes utilizar Markdown en la mayoría de los lugares de GitHub:
 
-- Comments in [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), and [discussions](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions)
-- Files with the `.md` or `.markdown` extension
-- Sharing snippets of text in [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
+- Comentarios en [issues](https://docs.github.com/issues/tracking-your-work-with-issues/about-issues), [pull requests](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests), y [discusiones](https://docs.github.com/discussions/collaborating-with-your-community-using-discussions/about-discussions)
+- Archivos con la extensión `.md` o `.markdown`.
+- Compartir fragmentos de texto en [Gists](https://docs.github.com/github/writing-on-github/editing-and-sharing-content-with-gists/creating-gists)
 
-**What is a _header_?** A header is a larger bit of text at the beginning of a section. There are six sizes.
+**¿Qué es un _encabezado_?** Un encabezado es un fragmento de texto más grande al principio de una sección. Existen seis tamaños.
 
-### Example
+### Ejemplo
 
 ```txt
-# This is an <h1> header, which is the largest
-## This is an <h2> header
-###### This is an <h6> header, which is the smallest
+# Esto es un encabezado <h1>, que es el más grande
+## Esto es un encabezado <h2>
+###### Esto es un encabezado <h6>, que es el más pequeño
 ```
 
-#### How it looks
+#### Qué aspecto tiene
 
-# This is an `<h1>` header, which is the largest
-## This is an `<h2>` header
-###### This is an `<h6>` header, which is the smallest
+# Esto es un encabezado <h1>, que es el más grande
+## Esto es un encabezado <h2>
+###### Esto es un encabezado <h6>, que es el más pequeño
 
-### :keyboard: Activity: Edit your file with headers
+### :keyboard: Actividad: Edita tu archivo con encabezados
 
-1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. Open the **pull requests** tab.
-1. Open the pull request we made for you.
-1. In this pull request, go to the **Files changed** tab.
-1. Select **Edit file** from the three dotted **...** menu in the upper right corner of the file view on `index.md`.
-1. On the **Edit file** tab, add a `#`, followed by a **space**, before the content to make it an H1 Header. You can add more headers, using one to six `#` characters followed by a **space**.
-1. Above your new content, click **Preview**.
-1. At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-1. Click **Commit changes**.
-1. Wait about 20 seconds then refresh this page for the next step.
+1. Abre una nueva pestaña del navegador, y trabaja en los pasos de tu segunda pestaña mientras lees las instrucciones en esta pestaña.
+1. Abre la pestaña de **pull requests**.
+1. Abre el pull request que hemos creado para ti.
+1. En este pull request, ve a la pestaña **Files changed**.
+1. Selecciona **Edit file** en el menú de tres puntos **...** en la esquina superior derecha de la vista del archivo en `index.md`.
+1. En la pestaña **Edit file**, añade un `#`, seguido de un **espacio**, antes del contenido para convertirlo en un encabezado H1. Puedes añadir más encabezados utilizando de uno a seis caracteres `#` seguidos de un **espacio**.
+1. Encima de tu nuevo contenido, haz clic en **Preview**.
+1. En la parte inferior de la página, escribe un mensaje de confirmación breve y significativo que describa el cambio que has realizado en el archivo.
+1. Haz clic en **Commit changes**.
+1. Espera unos 20 segundos y luego actualiza esta página para el siguiente paso.
 
 </details>
 
 <!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
+  <<< Author notes: Paso 2 >>>
+  Start this Paso by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
 <details id=2>
-<summary><h2>Step 2: Add an image</h2></summary>
+<summary><h2>Paso 2: Añade una imagen</h2></summary>
 
-_Great job adding headers to the file :sparkles:_
+_Buen trabajo añadiendo esos encabezados_ :sparkles:
 
-Let's add an image. Include descriptive text in the square brackets. This text is read aloud for people using screen readers. It's also shown at times when your image doesn't display, such as when there's a poor connection. You can see the syntax for images below:
+Vamos a añadir una imagen. Incluye un texto descriptivo entre los corchetes. Este texto se lee en voz alta para las personas que utilizan lectores de pantalla. También se muestra en los momentos en que tu imagen no se muestra, como cuando hay una mala conexión. Puedes ver la sintaxis de las imágenes a continuación:
 
-### Example
+### Ejemplo
 
 ```md
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Imagen del Yaktocat](https://octodex.github.com/images/yaktocat.png)
 ```
 
-#### How it looks
+#### Qué aspecto tiene
 
 <img alt="Image of Yaktocat" src=https://octodex.github.com/images/yaktocat.png width=400>
 
-### :keyboard: Activity: Adding an image
+### :keyboard: Actividad: Añadiendo una imagen
 
-1. As you did before, edit the `index.md` file in this pull request.
-1. In the file, add the correct Markdown for your image of choice. Don't forget to include alt-text!
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step.
+1. Como hiciste antes, edita el archivo `index.md` de esta solicitud de extracción.
+1. En el archivo, añade el Markdown correcto para la imagen de tu elección. No olvides incluir el texto alternativo.
+1. Utiliza la pestaña **Preview** para comprobar el aspecto que tendá tu formato Markdown.
+1. Confirma los cambios.
+1. Espera unos 20 segundos y actualiza esta página para el siguiente paso.
 
 </details>
 
 <!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
+  <<< Author notes: Paso 3 >>>
+  Start this Paso by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
 <details id=3>
-<summary><h2>Step 3: Add a code example</h2></summary>
+<summary><h2>Paso 3: Añade un ejemplo de código</h2></summary>
 
-_Great job adding an image to the file :tada:_
+_Buen trabajo añadiendo esa imagen_ :tada:
 
-In addition to code blocks, some code blocks should be rendered differently depending on the language, such as JavaScript or command-line text.
+Además de los bloques de código, algunos bloques de código deben renderizarse de forma diferente según el lenguaje, como JavaScript o el texto de la línea de comandos.
 
-### Example
+### Ejemplo
 
 <pre>
 ```
@@ -145,88 +145,88 @@ Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.gi
 ```
 </pre>
 
-#### How it looks
+#### Qué aspecto tiene
 
 ```
 $ git init
 Initialized empty Git repository in /Users/skills/Projects/recipe-repository/.git/
 ```
 
-### :keyboard: Activity: Adding a code example
+### :keyboard: Actividad: Añadiendo un ejemplo de código
 
-1. As you did before, edit the file in this pull request.
-1. In the file, add the correct Markdown for a code example of your choice.
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit your changes.
-1. Wait about 20 seconds then refresh this page for the next step.
+1. Al igual que antes, edita el archivo de este pull request.
+1. En el archivo, añade el Markdown correcto para un ejemplo de código de tu elección.
+1. Utilice la pestaña **Preview** para comprobar el formato de Markdown.
+1. Confirma los cambios.
+1. Espera unos 20 segundos y actualiza esta página para el siguiente paso.
 
 </details>
 
 <!--
-  <<< Author notes: Step 4 >>>
-  Start this step by acknowledging the previous step.
+  <<< Author notes: Paso 4 >>>
+  Start this Paso by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
 <details id=4>
-<summary><h2>Step 4: Make a task list</h2></summary>
+<summary><h2>Paso 4: Haz una lista de tareas</h2></summary>
 
-_Great job adding a code example to the file :partying_face:_
+_Gran trabajo añadiendo un ejemplo de código_ :partying_face:
 
-**What is a _task list_?** A task list creates checkboxes to check off. They're very useful for tracking issues and pull requests. If you include a task list in the body of an issue or pull request, you'll see a progress indicator in your issue list. The syntax for task lists is very specific. Be sure to include the spaces where required, or else they won't render.
+**¿Qué es una _lista de tareas_?** Una lista de tareas crea casillas para marcar. Son muy útiles para el seguimiento de las incidencias (o _issues_) y pull requests. Si incluyes una lista de tareas en el cuerpo de una incidencia o pull request, verás un indicador de progreso en tu lista de incidencias. La sintaxis de las listas de tareas es muy específica. Asegúrate de incluir los espacios donde se requieren, o de lo contrario no se mostrarán.
 
-### Example
+### Ejemplo
 
 ```
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
+- [x] Las listas requieren una sintaxis muy concreta
+- [x] Este elemento está completado
+- [ ] Este elemento está sin completar
 ```
 
-#### How it looks
+#### Qué aspecto tiene
 
-- [x] List syntax is required
-- [x] This item is complete
-- [ ] This item is not complete
+- [x] Las listas requieren una sintaxis muy concreta
+- [x] Este elemento está completado
+- [ ] Este elemento está sin completar
 
-### :keyboard: Activity: Add a task list
+### :keyboard: Actividad: Añade una lista de tareas
 
-GitHub Actions went ahead and made a branch and a pull request for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
+Las acciones de GitHub se adelantaron y crearon una rama y un pull request para ti. Así que tendrás que añadir el contenido al archivo que hemos creado en la rama, y comprobaremos tu progreso a medida que trabajes en este curso.
 
-1. Return to your pull request.
-1. Use Markdown to create a task list. Here is an example:
+1. Vuelve a tu pull request.
+1. Usa Markdown para crear una lista de tareas. Aquí tienes un ejemplo:
 
    ```md
-   - [ ] Turn on GitHub Pages
-   - [ ] Outline my portfolio
-   - [ ] Introduce myself to the world
+   - [ ] Activar GitHub Pages
+   - [ ] Hacer un esbozo de mi portfolio
+   - [ ] Pesentarme al mundo
    ```
 
-   Remember, a task list starts with the syntax `- [ ]` and then the task list item. The formatting is specific!
+  Recuerda, una lista de tareas comienza con la sintaxis `- [ ]` y luego el elemento de la lista de tareas. ¡El formato debe ser preciso!
 
-1. Use the **Preview** tab to check your Markdown formatting.
-1. Commit the changes to the file.
-1. Wait about 20 seconds then refresh this page for the next step.
+1. Utiliza la pestaña **Preview** para comprobar el formato de Markdown.
+1. Confirma los cambios en el archivo.
+1. Espera unos 20 segundos y actualiza esta página para el siguiente paso.
 
 </details>
 
 <!--
-  <<< Author notes: Step 5 >>>
-  Start this step by acknowledging the previous step.
+  <<< Author notes: Paso 5 >>>
+  Start this Paso by acknowledging the previous step.
   Define terms and link to docs.github.com.
 -->
 
 <details id=5>
-<summary><h2>Step 5: Merge your pull request</h2></summary>
+<summary><h2>Paso 5: Fusiona tu pull request</h2></summary>
 
-_Great job adding a task list to the file :heart:_
+_Gran trabajo añadiendo una lista de tareas a tu archivo_ :heart:
 
-You can now [merge](https://docs.github.com/get-started/quickstart/github-glossary#merge) your pull request!
+Ya puedes [fusionar](https://docs.github.com/get-started/quickstart/github-glossary#merge) tu pull request!
 
-### :keyboard: Activity: Merge your pull request
+### :keyboard: Actividad: Fusiona tu pull request
 
-1. Click **Merge pull request**.
-1. Wait about 20 seconds then refresh this page for the next step.
+1. Haz clic en **Merge pull request**.
+1. Espera unos 20 segundos y actualiza esta página para el siguiente paso.
 
 </details>
 
@@ -236,31 +236,31 @@ You can now [merge](https://docs.github.com/get-started/quickstart/github-glossa
 -->
 
 <details id=X>
-<summary><h2>Finish</h2></summary>
+<summary><h2>Finalización</h2></summary>
 
-_Congratulations friend, you've completed this course!_
+_¡Enhorabuena, has completado el curso!_
 
 <img src=https://octodex.github.com/images/welcometocat.png alt=celebrate width=300 align=right>
 
-Here's a recap of all the tasks you've accomplished in your repository:
+Aquí tienes un recuento de todas las tareas que has realizado en tu repositorio:
 
-1. You learned about Markdown, headings, images, code examples, and task lists.
-1. You created and merged a Markdown file.
-1. You learned an essential GitHub skill. 🎉
+1. Has aprendido sobre Markdown, encabezados, imágenes, ejemplos de código y listas de tareas.
+1. Has creado y fusionado un archivo Markdown.
+1. Aprendiste una habilidad esencial de GitHub. 🎉
 
-### What's next?
+### ¿Y ahora, qué?
 
-- You can enable GitHub Pages and see your Markdown file as a website!
-  1. Under your repository name at the upper right, click :gear: **Settings**.
-  1. Then on the lower left, click **Pages**.
-  1. In the **GitHub Pages** section, use the **Source** drop-down menu to select `main` as your GitHub Pages publishing source.
-  1. Click the **Save** button.
-  1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ..." you can click on the link to see your published site.
-- Learn more about [Markdown](https://docs.github.com/github/writing-on-github).
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/skills/.github/discussions)
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+- ¡Puedes habilitar GitHub Pages y ver tu archivo Markdown como un sitio web!
+  1. Debajo del nombre de tu repositorio, en la parte superior derecha, haz clic en :gear: **Settings**.
+  1. Luego, en la parte inferior izquierda, haz clic en **Pages**.
+  1. En la sección **GitHub Pages**, utiliza el menú desplegable **Source** para seleccionar `main` como tu fuente de publicación de páginas de GitHub.
+  1. Haz clic en el botón **Save**.
+  1. Espera unos 30 segundos y luego actualiza la página. Cuando veas "Your site is published ad ..." puedes hacer clic en el enlace para ver tu sitio publicado.
+- Más información sobre [Markdown](https://docs.github.com/github/writing-on-github).
+- Nos encantaría saber qué te ha parecido este curso [en nuestro foro de debate](https://github.com/skills/.github/discussions)
+- [Haz otro curso de GitHub Skills](https://github.com/skills).
+- Lee los documentos de inicio de GitHub](https://docs.github.com/get-started).
+- Para encontrar proyectos a los que contribuir, consulta [GitHub Explore](https://github.com/explore).
 
 </details>
 
