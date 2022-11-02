@@ -256,7 +256,7 @@ Aquí tienes un recuento de todas las tareas que has realizado en tu repositorio
 - Más información sobre [Markdown](https://docs.github.com/github/writing-on-github).
 - Nos encantaría saber qué te ha parecido este curso [en nuestro foro de debate](https://github.com/skills/.github/discussions)
 - [Haz otro curso de GitHub Skills](https://github.com/skills).
-- Lee los documentos de inicio de GitHub](https://docs.github.com/get-started).
+- Lee los [documentos de inicio con GitHub](https://docs.github.com/get-started).
 - Para encontrar proyectos a los que contribuir, consulta [GitHub Explore](https://github.com/explore).
 
 </details>
